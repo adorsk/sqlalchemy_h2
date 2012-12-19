@@ -1,0 +1,7 @@
+*.pyc
+*.class
+*.swp
+*.orig
+build
+tmp
+dist
