@@ -27,7 +27,8 @@ setup(name='sqlalchemy_h2',
       zip_safe=False,
       entry_points={
          'sqlalchemy.dialects': [
-              'h2 = sqlalchemy_h2.dialect',
+             'h2 = sqlalchemy_h2.dialect:base.dialect',
+             'h2.zxjdbc = sqlalchemy_h2.dialect.zxjdbc:dialect',
          ]
       }
 )
