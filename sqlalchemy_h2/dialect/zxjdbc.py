@@ -17,7 +17,7 @@ import re
 
 from sqlalchemy import pool
 from sqlalchemy.connectors.zxJDBC import ZxJDBCConnector
-from sqlalchemy.dialects.h2.base import H2Dialect, H2ExecutionContext
+from sqlalchemy_h2.dialect.base import H2Dialect, H2ExecutionContext
 
 
 class H2ExecutionContext_zxjdbc(H2ExecutionContext):

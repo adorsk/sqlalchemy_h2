@@ -1,4 +1,4 @@
-from sqlalchemy.dialects.h2 import base, zxjdbc
+from sqlalchemy_h2.dialect import base, zxjdbc
 
 
 # default dialect
